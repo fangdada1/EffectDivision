@@ -1,0 +1,6 @@
+framework module Pods_EffectDivision_Tests {
+  umbrella header "Pods-EffectDivision_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

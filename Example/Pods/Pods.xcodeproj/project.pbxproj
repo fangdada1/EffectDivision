@@ -1,0 +1,1493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0816AC7A9477692AA102F254111B0E58 /* BELensResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 459E58306F9164026DFE8E7BF537B84C /* BELensResourceHelper.m */; };
+		092360553535479341C25D4A33362A63 /* BEActionRecognitionAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832BA537A5746E76752A50E9A126DBA /* BEActionRecognitionAlgorithmTask.m */; };
+		0B2C313579646EC2D06C7A663DECF89F /* BEStudentIdOcrTask.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3ADD3EE3E67CD6996FAB911D4467B3 /* BEStudentIdOcrTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8FDD77E271C04A87C0813A514EB3F5 /* BEGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD56A69663A646A03DA22AA558D1538 /* BEGLUtils.m */; };
+		0BC4BF7F97DB403703A16CF395AF3C63 /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7937010D76FCA2F59DD6674036D3FB /* Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DFEA2F596F8E2C60EA29BA79457539B /* BEHttpRequestProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC8B490C0E37B90705EA8632C0D9A5FB /* BEHttpRequestProvider.mm */; };
+		0EB333DBB690A43B3EE86746D388DA2E /* EffectDivision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8F56B1D382EAB093EDB0658DE19804 /* EffectDivision-dummy.m */; };
+		170CD5B7BB7F4FABD02CC7B042DF1F81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		1AE65038FB11473FB93D3054854CB64C /* BEFaceAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 119BA7FD59DC7598094A04756406E0E3 /* BEFaceAlgorithmTask.m */; };
+		1C46850737AD6A51CA73D6EBD7481411 /* BEGazeEstimationTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D557037DAB15F85FE88CE8ADE9CF63 /* BEGazeEstimationTask.m */; };
+		1EAACC38884C6EFC5B7BF029A225E22A /* BESkySegAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4C7C6552D7CA5413BACBFBFA22D7D /* BESkySegAlgorithmTask.m */; };
+		1F1691B266CF66C9E957DF1C9EB1BEB1 /* BEGLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD31518635FC44F88B65D6D6D38636D /* BEGLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2092E2468F872E80373F33A5CC62B283 /* BEBachSkeletonAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 465DAD3EDE3863C2545DD80459C22F5C /* BEBachSkeletonAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B9A4DC3CD41C7A885D88A519D3BB1D /* BEVideoClsAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 18965FEF12F202D500ACE440E1B366AC /* BEVideoClsAlgorithmTask.m */; };
+		2343AD7B12D7641681B1801FE5E1BE3C /* BESkinSegmentationAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D73F32FB9F3FBF46D02EDF040CBDBDF6 /* BESkinSegmentationAlgorithmTask.m */; };
+		24A665B142D284F9DD5F60F2B87E9A13 /* BEHeadSegmentAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C5EDD188617BBA8D525CE1ACAD2B9DBA /* BEHeadSegmentAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F19412D0AE7824A59D6FC8E9023255 /* BEFaceClusterAlgorithmTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = B8C877AD8057657D0F6052B070C532E2 /* BEFaceClusterAlgorithmTask.mm */; };
+		290823436E8C2FE29B4E3BF4AFE891BB /* EffectDivision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C55B4382A8A25858C1EB306187789738 /* EffectDivision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29501D042F33E4CD7D4A7F34EC5E1407 /* BEPortraitMattingAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8501927051065EF9833B32977D9B8B /* BEPortraitMattingAlgorithmTask.m */; };
+		2971E6595C8ABF44BBF400F9D4274542 /* BEHairParserAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 21169CB13855D7F296664D985BBB14B6 /* BEHairParserAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2F18F3A415C38CF764C4CD235EF0EDCE /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E68744467E6729FACEA8EBB483CDFDC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37B9AFED170F2A5A4FDA68356269736F /* BEEffectResourceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C782F0C74D2C2B6731F780FD198D4E /* BEEffectResourceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D51C15B8582541649B50B95566DF36 /* BEAlgorithmKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A8917B3887121386398FC4A543785A /* BEAlgorithmKey.m */; };
+		37FE55F4147B1468D85181A17B4A3E43 /* BEHttpRequestProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A993CC4B2B119F5D6ADEEB6453BC7DB /* BEHttpRequestProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493771CC851688BF0048566FB8960848 /* BECommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E86FEE00C82CBB26CCBB14405750202 /* BECommonUtils.m */; };
+		4A51879511A4DF506BCF7E15E6874CBA /* BEFaceClusterAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 28892F59EFCF2FCB47A353D995C6E2E4 /* BEFaceClusterAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ADDA4250674BC56907BFBB6E38D21BC /* BEDynamicGestureAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C03453022C80B65B91FF65F94A709DC /* BEDynamicGestureAlgorithmTask.m */; };
+		4B35A0F61A4A933477BBB42B096C6FEE /* BESkinSegmentationAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 559502C246EB962C47915C129446B799 /* BESkinSegmentationAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3C8E094ECAC7B0C959FE4C163C273D /* BEConcentrationTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 5488DA09F6B17E8EA602AFA5D10D8EDC /* BEConcentrationTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5396957A9113913CF6C039DCA52D1168 /* BEAdaptiveSharpenTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC4984B96AF7FFE171FF01E2876F10 /* BEAdaptiveSharpenTask.m */; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5830C58C161B1F2643B0528F62BB06F0 /* macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8A0BFD1771108C169E61B99B173A34 /* macro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		5F46673E8782CD293DE9947AB4991142 /* BEOpenGLRenderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F6B662AB283FA07095DE96CACD9B9 /* BEOpenGLRenderHelper.m */; };
+		6130E1C025E8679BE22E15CD8279EA57 /* BELicenseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 239FA95D7BDF60AB9D3FA874D3C14DC0 /* BELicenseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61C27E295F2426C2ACD89F0C4701C367 /* BEImageOpeartion.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E88421EC2EADD96A4D7E93FAD1EAC9 /* BEImageOpeartion.m */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6417AB54E0160E5AD4D88F05CB869E3E /* BEOpenGLRenderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8E59EFA04EA07F07E9CFE89C3BF07C /* BEOpenGLRenderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		68680BEF354FA98DF6E42D27C3937D8C /* Pods-EffectDivision_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA2E811602B4063A70FC34D2ED93291 /* Pods-EffectDivision_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A4935FC823FDA8124FC10DA19325C5 /* BECarDetectTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD55DC2ED175C79BBEA9F174BAADB61 /* BECarDetectTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69ABBA77B69CEF798003EB518CA6F7CF /* BEVideoClsAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2055DC42187D9A7C722495E2589D1E08 /* BEVideoClsAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D59955E7A29CFB06EB3CF6B1AF00F29 /* BEPhotoNightSceneTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C86FA88D63D050D9A9552156BFE4DB /* BEPhotoNightSceneTask.m */; };
+		6DE027EAC1E4B2DC711EB763AE4D8DA2 /* BEImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0F542B85DBC171C8F10D4722771CF /* BEImageUtils.m */; };
+		705673A5BF7CC898E9A4BDCD50A8FE8F /* BELicenseHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5E8903B219F66069A1CB382742706C1 /* BELicenseHelper.mm */; };
+		7228793D5D9FF5570DD18DB0C2740A49 /* BEConcentrationTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1494E298061DDBA658D217E6AF8584 /* BEConcentrationTask.m */; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		788D4802F32333CA8D3E0E5C171A4E4C /* BEImageQualityProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D95EA0B3250D86E004E23A8F17A9B0 /* BEImageQualityProcessManager.m */; };
+		794744849D90131D3B2697A7A031696B /* BEImageQualityProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DADB3A7ECE7A33D67EDECD7845E054 /* BEImageQualityProcessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B1E5BBAE01B8F0D1FBD77A5274CA91D /* BEAlgorithmTaskFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C9937DBD04F6C991AE37DCF4AEC354 /* BEAlgorithmTaskFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C09621142F94931BD7DF80979B7702B /* BESkeletonAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9E80869C414D15F0FA1119D37A25D /* BESkeletonAlgorithmTask.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		7C999E83C71C86ED75747D2A276B47BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		7CB394C57B81422093CE6E6BBBA3CCAB /* BEHumanDistanceAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9FB915B42E4EC93783EC59A5959443 /* BEHumanDistanceAlgorithmTask.m */; };
+		7E064019D8DEF35846E25077BF91C52D /* BEPhotoNightSceneTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BD9E45DAA9C0C93144EA9A4B2938B9 /* BEPhotoNightSceneTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8646066C1CA1D44E8BBD15DCDA78E18B /* BEPetFaceAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E22DE33DD1AC925DA285C0836A3D2476 /* BEPetFaceAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		93EA244E18A282BDBA66A7AC556E1B0A /* BEAnimojiAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A51BA3042D68D28921357293CAC06C /* BEAnimojiAlgorithmTask.m */; };
+		94C070E66EF36DACFD2BF38F75B1166B /* BEAdaptiveSharpenTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D86C0C207B81665A185A4F1CF45B530 /* BEAdaptiveSharpenTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9598E560520B7749A6A98BA822FDAA4E /* BEChromaKeyingAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DE60035BD25DC061A497EFFB9A7628 /* BEChromaKeyingAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96845DF27DD75A69534DF359A9D75FA9 /* BEEffectManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 596BE7976E6862A911D23F7E440AAA5D /* BEEffectManager.mm */; };
+		989A954C6109853817E32D9515A071BE /* Pods-EffectDivision_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9511DD1A7B1D14D09C2F64F1411579 /* Pods-EffectDivision_Example-dummy.m */; };
+		990F0164CC59388F270A0337EEF73009 /* BEImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 20015C8D11DC0D8D68CBFBEB25899E75 /* BEImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ECFF5723F678683EB05D44F27D116B /* BEGLTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = E71068E60CB69325CC60E4F013BAD181 /* BEGLTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6F926DF9D82999EDB94B93EA8F1F46 /* BEC1AlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3A1ABF1FA2AF51887D01B41BD69E1A /* BEC1AlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8C79175AA2E558FEBEEDAB4D47A03C /* BEAnimojiAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C4604DCA14B31FE98AB4B25A4CD11E /* BEAnimojiAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		9E3CE4AB97DA5364625C9D7F816A1270 /* BEAlgorithmTaskFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1FB7E5A2B0C1AE3550471F64BB81D1 /* BEAlgorithmTaskFactory.m */; };
+		A45ECACEB230DC2D83C06B07EE1E4482 /* BETimeRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A64DF9FA3844BB8C1563AFD8F92C9D /* BETimeRecoder.m */; };
+		A9B20D1B7FC890B46573620B537D1FA6 /* BEEffectResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF36DCE56C90C4E3087EA2083562B313 /* BEEffectResourceHelper.m */; };
+		A9FC97852A5D7BE441119F6B2C349A73 /* BEAlgorithmResourceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7CA2C20CD42AF7A3D06FEF74CA7AD3 /* BEAlgorithmResourceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2FB432D342374FF1B6AE3DFEB7FE03 /* BEVideoSRTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED9F1CACC3D57974D37CDF2A27C5D4 /* BEVideoSRTask.m */; };
+		ACA4B6CF74E2AEF5D8ADABFFD9910084 /* BEGLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E4BBC749BC0981556826D095ED45C /* BEGLTexture.m */; };
+		AD7F49F9C709CE984B282F7E9498655D /* BEAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A99E4DF4A3EE38627696203B87C3DB7A /* BEAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2AA45936864A971EABD3332B89DA269 /* BEBachSkeletonAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4189795275F0D783BE434137506DE234 /* BEBachSkeletonAlgorithmTask.m */; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		B52C0A613BF6C7F47242119A87D80105 /* BEHandAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE2D2F22105567AE971FDF6203FB548 /* BEHandAlgorithmTask.m */; };
+		B7E142B1FD7FB99765BBACCB6158F046 /* BETimeRecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D6003A5BE8D88FDDF687780B0C0CDE /* BETimeRecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8389285B789B2D01883109C9331680C /* BEFaceAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E10EE7400D42F5EE250DA8FE9205CA8 /* BEFaceAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8A66BF41AF1C180B7ECEA7B9C8AC590 /* BEAlgorithmKey.h in Headers */ = {isa = PBXBuildFile; fileRef = E310014B1065E0D49D4498087AE076BB /* BEAlgorithmKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA5590F0DAF4562650A5A958C75A1F02 /* BELightClsAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EE4C4A8C3FCA561F34786180FC0051 /* BELightClsAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AA225A235EEFD9CBDD43D7AF64C072 /* BEC2AlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = D08E6B82BBC121E86E8A2BBAAE562DF3 /* BEC2AlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C44FEC6D05BFEE833E241A77E783F3EE /* BEStudentIdOcrTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D547F611907F6957445AAEE5BD0918B4 /* BEStudentIdOcrTask.m */; };
+		C5659C694F3A3300FCEA79CF61043316 /* BECarDetectTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3353B0057FC2E23878B347CE668AEF95 /* BECarDetectTask.m */; };
+		C673B48793461D6533D85E1747034ACE /* BESkeletonAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A689B1E29F9BBFBE950BAFBBABFD6C17 /* BESkeletonAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		CB5CBE36BCF9245A8785ADE9FE835A44 /* BEFaceVerifyAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D830E549DD0DE804D92E381FB7A382 /* BEFaceVerifyAlgorithmTask.m */; };
+		CBE306C9FA246EC796824B7E33520D61 /* BELensResourceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E60A9773AC8265B11C0C202281ADDA51 /* BELensResourceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF13181069BDBFAB866307681B5238A6 /* BEC1AlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6B338EAE73E063454340D2E1B0299 /* BEC1AlgorithmTask.m */; };
+		D151CF03B89B77A0A37785FC233D1FCC /* BEAvatarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9869E05C227363EE23BB5E9B873857BD /* BEAvatarManager.m */; };
+		D34E91790550236A7246ED609007023C /* Pods-EffectDivision_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E54E644A3B890775FA4CD141EA6F6 /* Pods-EffectDivision_Tests-dummy.m */; };
+		D3D67DEEDA902F8B57AC1E91ABCDDAC1 /* BEVideoSRTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7088821068BCF1F7891C8E7DC4338974 /* BEVideoSRTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4510F11B0D02D87B2AB4F5FA0FADDBD /* BEHumanDistanceAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F165DB2D26B0E84CEDC025477764A9 /* BEHumanDistanceAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B45CDC2AEA2BB2057C859CDF640803 /* BEEffectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E62C7369D4637B1F5D217C368E4683 /* BEEffectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA45D7B94A3E4D875CDE731A024DB6CF /* BEFaceVerifyAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1122BB8C1D2D6E06369E950F8BF800 /* BEFaceVerifyAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D11537FB249D830EFD302AFD1D05E4 /* BEPetFaceAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5398E2B0477C973C874B1E0BFF9882B7 /* BEPetFaceAlgorithmTask.m */; };
+		E0EC511216A99339A753625789D17C0C /* BEGazeEstimationTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D34DD946BC1260F70CFCC65DBC6EAF /* BEGazeEstimationTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15347089E32142E6F34FC5F60022960 /* BEImageOpeartion.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F35F0C00792AC37FDFCD13C98A38AE /* BEImageOpeartion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E66F411D8199922F325A9F7A5DCD0D /* BEHeadSegmentAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E632488E16787D012C5142743CE1E3C /* BEHeadSegmentAlgorithmTask.m */; };
+		E1FE2E78578DC59564A776FFA5B410EA /* BESkySegAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E31FACC9CF6F25BC41A13A233A7C86E /* BESkySegAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4BF413534D3F5F430B8C131EB74A5AE /* BEPortraitMattingAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0C38C590DCF53B611FF2ED4441FD65 /* BEPortraitMattingAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E59475148135B62A7E6828B43B6787BB /* BEAvatarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 554A136B1008F7761039493747E62A79 /* BEAvatarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6111A1216A10360AF9A1990960E2EB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		E8668B53BFE153D073C6ADD2130A5E22 /* BEDynamicGestureAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 697E6EF17F698697DE1707BE20DA3F82 /* BEDynamicGestureAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC6FBC966B997F014E12A7F7353E5FA /* BEAlgorithmResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8947B841828DDC3068005E42965F819F /* BEAlgorithmResourceHelper.m */; };
+		EC94984D5E23CA3AFC01B12C1604D9A5 /* BEC2AlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F66D0D7651D6B74F54F4EA071F88CE2D /* BEC2AlgorithmTask.m */; };
+		EE140B0D373E2D897700A5CBFB26E2EB /* Pods-EffectDivision_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 850AE44D1D56BC7659120CB893332F2D /* Pods-EffectDivision_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11C3B419861227A9EDA55865DB745C0 /* BEAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 34359BB5E8090F0A1EAFA9853F8DBEF1 /* BEAlgorithmTask.m */; };
+		F164016A18A3D2D958ED347F0D94E921 /* BEHandAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC4EDF8D06244FB85712F90E09A9A64 /* BEHandAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1883CF56E045D08825C0EBFEF0055DC /* BEChromaKeyingAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA1304C2D31E6677C5F711653BC4552 /* BEChromaKeyingAlgorithmTask.m */; };
+		F6C5CDFD1A7A07891C8DE868828F9675 /* BEActionRecognitionAlgorithmTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E61293001C97E2A91F791AC9D3AFBE64 /* BEActionRecognitionAlgorithmTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD1D9BC012A899E9934F1617A54FFC73 /* BECommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D216CF2064207B60A7543473705160AE /* BECommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD5188B87E4A113C7924148E77967432 /* BEHairParserAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C69EAFF73D688B690FAFBFA21AF81277 /* BEHairParserAlgorithmTask.m */; };
+		FE993AB68ED60E0C82A12D4553FBA6DB /* BELightClsAlgorithmTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A0D9AE240863C0DB7BF0847DF674A1 /* BELightClsAlgorithmTask.m */; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		576937D43F3CCF2B3733AD0B94F00825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		87E4FA39DA560DA0C136F269AC6A779A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914F596B87C67E6286E2E801D3ECB676;
+			remoteInfo = "Pods-EffectDivision_Example";
+		};
+		F1EB7B998164FDC91F57945AA87D7D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD625747757851EEC78B69DBC5204807;
+			remoteInfo = EffectDivision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A993CC4B2B119F5D6ADEEB6453BC7DB /* BEHttpRequestProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEHttpRequestProvider.h; sourceTree = "<group>"; };
+		0B1494E298061DDBA658D217E6AF8584 /* BEConcentrationTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEConcentrationTask.m; sourceTree = "<group>"; };
+		0EDB1333220BCEA46F5A9B27A221081D /* Pods-EffectDivision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EffectDivision_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0FD55DC2ED175C79BBEA9F174BAADB61 /* BECarDetectTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BECarDetectTask.h; sourceTree = "<group>"; };
+		119BA7FD59DC7598094A04756406E0E3 /* BEFaceAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEFaceAlgorithmTask.m; sourceTree = "<group>"; };
+		15F35F0C00792AC37FDFCD13C98A38AE /* BEImageOpeartion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEImageOpeartion.h; sourceTree = "<group>"; };
+		16D95EA0B3250D86E004E23A8F17A9B0 /* BEImageQualityProcessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEImageQualityProcessManager.m; sourceTree = "<group>"; };
+		1832BA537A5746E76752A50E9A126DBA /* BEActionRecognitionAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEActionRecognitionAlgorithmTask.m; sourceTree = "<group>"; };
+		18965FEF12F202D500ACE440E1B366AC /* BEVideoClsAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEVideoClsAlgorithmTask.m; sourceTree = "<group>"; };
+		18A6BC37D5F6E4A34F9573E7F51E2B99 /* Pods-EffectDivision_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EffectDivision_Tests.modulemap"; sourceTree = "<group>"; };
+		18BD9E45DAA9C0C93144EA9A4B2938B9 /* BEPhotoNightSceneTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEPhotoNightSceneTask.h; sourceTree = "<group>"; };
+		19DADB3A7ECE7A33D67EDECD7845E054 /* BEImageQualityProcessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEImageQualityProcessManager.h; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1D86C0C207B81665A185A4F1CF45B530 /* BEAdaptiveSharpenTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAdaptiveSharpenTask.h; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1E9D0F261376E2606297DAC4239B9AD3 /* Pods-EffectDivision_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EffectDivision_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE7492F1E93C73C4BB31C2AC20702C3 /* Pods-EffectDivision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EffectDivision_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20015C8D11DC0D8D68CBFBEB25899E75 /* BEImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEImageUtils.h; sourceTree = "<group>"; };
+		2055DC42187D9A7C722495E2589D1E08 /* BEVideoClsAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEVideoClsAlgorithmTask.h; sourceTree = "<group>"; };
+		20DC4984B96AF7FFE171FF01E2876F10 /* BEAdaptiveSharpenTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAdaptiveSharpenTask.m; sourceTree = "<group>"; };
+		21169CB13855D7F296664D985BBB14B6 /* BEHairParserAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEHairParserAlgorithmTask.h; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		239FA95D7BDF60AB9D3FA874D3C14DC0 /* BELicenseHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BELicenseHelper.h; sourceTree = "<group>"; };
+		26D9E80869C414D15F0FA1119D37A25D /* BESkeletonAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BESkeletonAlgorithmTask.m; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		28892F59EFCF2FCB47A353D995C6E2E4 /* BEFaceClusterAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEFaceClusterAlgorithmTask.h; sourceTree = "<group>"; };
+		2E8E4BBC749BC0981556826D095ED45C /* BEGLTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEGLTexture.m; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		32891F814C6FB8B9DAB143B264D1D9A9 /* Pods-EffectDivision_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EffectDivision_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32D557037DAB15F85FE88CE8ADE9CF63 /* BEGazeEstimationTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEGazeEstimationTask.m; sourceTree = "<group>"; };
+		3353B0057FC2E23878B347CE668AEF95 /* BECarDetectTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BECarDetectTask.m; sourceTree = "<group>"; };
+		3398C63293419DE0DD2D723C28427AC9 /* Pods-EffectDivision_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EffectDivision_Example.modulemap"; sourceTree = "<group>"; };
+		34359BB5E8090F0A1EAFA9853F8DBEF1 /* BEAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAlgorithmTask.m; sourceTree = "<group>"; };
+		3B8E59EFA04EA07F07E9CFE89C3BF07C /* BEOpenGLRenderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEOpenGLRenderHelper.h; sourceTree = "<group>"; };
+		3E632488E16787D012C5142743CE1E3C /* BEHeadSegmentAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEHeadSegmentAlgorithmTask.m; sourceTree = "<group>"; };
+		3E86FEE00C82CBB26CCBB14405750202 /* BECommonUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BECommonUtils.m; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3F8A0BFD1771108C169E61B99B173A34 /* macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macro.h; path = EffectDivision/Classes/macro.h; sourceTree = "<group>"; };
+		40A06A454FF16BD26AF17D6F9D084287 /* Pods-EffectDivision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EffectDivision_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4189795275F0D783BE434137506DE234 /* BEBachSkeletonAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEBachSkeletonAlgorithmTask.m; sourceTree = "<group>"; };
+		44D6003A5BE8D88FDDF687780B0C0CDE /* BETimeRecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BETimeRecoder.h; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		459E58306F9164026DFE8E7BF537B84C /* BELensResourceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BELensResourceHelper.m; sourceTree = "<group>"; };
+		465DAD3EDE3863C2545DD80459C22F5C /* BEBachSkeletonAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEBachSkeletonAlgorithmTask.h; sourceTree = "<group>"; };
+		4AF8C5221B2D7AD6796D41C6B89D63CC /* Pods-EffectDivision_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EffectDivision_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B1FB7E5A2B0C1AE3550471F64BB81D1 /* BEAlgorithmTaskFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAlgorithmTaskFactory.m; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4E68744467E6729FACEA8EBB483CDFDC /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = EffectDivision/Classes/Core.h; sourceTree = "<group>"; };
+		4EA2E811602B4063A70FC34D2ED93291 /* Pods-EffectDivision_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EffectDivision_Example-umbrella.h"; sourceTree = "<group>"; };
+		5398E2B0477C973C874B1E0BFF9882B7 /* BEPetFaceAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEPetFaceAlgorithmTask.m; sourceTree = "<group>"; };
+		5488DA09F6B17E8EA602AFA5D10D8EDC /* BEConcentrationTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEConcentrationTask.h; sourceTree = "<group>"; };
+		554A136B1008F7761039493747E62A79 /* BEAvatarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAvatarManager.h; sourceTree = "<group>"; };
+		559502C246EB962C47915C129446B799 /* BESkinSegmentationAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BESkinSegmentationAlgorithmTask.h; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		576751C5BA34F08D1BAA52C16329DA36 /* Pods-EffectDivision_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EffectDivision_Tests-Info.plist"; sourceTree = "<group>"; };
+		596BE7976E6862A911D23F7E440AAA5D /* BEEffectManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = BEEffectManager.mm; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		68C782F0C74D2C2B6731F780FD198D4E /* BEEffectResourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEffectResourceHelper.h; sourceTree = "<group>"; };
+		697E6EF17F698697DE1707BE20DA3F82 /* BEDynamicGestureAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEDynamicGestureAlgorithmTask.h; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		7088821068BCF1F7891C8E7DC4338974 /* BEVideoSRTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEVideoSRTask.h; sourceTree = "<group>"; };
+		77A0D9AE240863C0DB7BF0847DF674A1 /* BELightClsAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BELightClsAlgorithmTask.m; sourceTree = "<group>"; };
+		79AA029C4AB0771D165FD516BE3D40A8 /* Pods-EffectDivision_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EffectDivision_Tests"; path = Pods_EffectDivision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7E31FACC9CF6F25BC41A13A233A7C86E /* BESkySegAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BESkySegAlgorithmTask.h; sourceTree = "<group>"; };
+		7F7CA2C20CD42AF7A3D06FEF74CA7AD3 /* BEAlgorithmResourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAlgorithmResourceHelper.h; sourceTree = "<group>"; };
+		850AE44D1D56BC7659120CB893332F2D /* Pods-EffectDivision_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EffectDivision_Tests-umbrella.h"; sourceTree = "<group>"; };
+		87E12624EA7BA249CE0BCF7B8D425AFC /* EffectDivision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EffectDivision.release.xcconfig; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8947B841828DDC3068005E42965F819F /* BEAlgorithmResourceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAlgorithmResourceHelper.m; sourceTree = "<group>"; };
+		8C03453022C80B65B91FF65F94A709DC /* BEDynamicGestureAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEDynamicGestureAlgorithmTask.m; sourceTree = "<group>"; };
+		8C8501927051065EF9833B32977D9B8B /* BEPortraitMattingAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEPortraitMattingAlgorithmTask.m; sourceTree = "<group>"; };
+		8E0C38C590DCF53B611FF2ED4441FD65 /* BEPortraitMattingAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEPortraitMattingAlgorithmTask.h; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		90E88421EC2EADD96A4D7E93FAD1EAC9 /* BEImageOpeartion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEImageOpeartion.m; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		9869E05C227363EE23BB5E9B873857BD /* BEAvatarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAvatarManager.m; sourceTree = "<group>"; };
+		98DE60035BD25DC061A497EFFB9A7628 /* BEChromaKeyingAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEChromaKeyingAlgorithmTask.h; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9ADBB62895A1DD2CBDF9EBCE25D0DAC2 /* Pods-EffectDivision_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EffectDivision_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9B1122BB8C1D2D6E06369E950F8BF800 /* BEFaceVerifyAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEFaceVerifyAlgorithmTask.h; sourceTree = "<group>"; };
+		9C1A17F00299BD67E261FEC09198957C /* Pods-EffectDivision_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EffectDivision_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9C9BB99B20EFDE1E1A7806B257ECD7B1 /* EffectDivision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EffectDivision-prefix.pch"; sourceTree = "<group>"; };
+		9D3F6B662AB283FA07095DE96CACD9B9 /* BEOpenGLRenderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEOpenGLRenderHelper.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E10EE7400D42F5EE250DA8FE9205CA8 /* BEFaceAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEFaceAlgorithmTask.h; sourceTree = "<group>"; };
+		A2E62C7369D4637B1F5D217C368E4683 /* BEEffectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEffectManager.h; sourceTree = "<group>"; };
+		A689B1E29F9BBFBE950BAFBBABFD6C17 /* BESkeletonAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BESkeletonAlgorithmTask.h; sourceTree = "<group>"; };
+		A7C86FA88D63D050D9A9552156BFE4DB /* BEPhotoNightSceneTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEPhotoNightSceneTask.m; sourceTree = "<group>"; };
+		A99E4DF4A3EE38627696203B87C3DB7A /* BEAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAlgorithmTask.h; sourceTree = "<group>"; };
+		AA3ADD3EE3E67CD6996FAB911D4467B3 /* BEStudentIdOcrTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEStudentIdOcrTask.h; sourceTree = "<group>"; };
+		ACD31518635FC44F88B65D6D6D38636D /* BEGLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEGLUtils.h; path = EffectDivision/Classes/BEGLUtils.h; sourceTree = "<group>"; };
+		AD3CA5BB39FB63A0AE01C4B7267364AF /* EffectDivision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EffectDivision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AFE2D2F22105567AE971FDF6203FB548 /* BEHandAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEHandAlgorithmTask.m; sourceTree = "<group>"; };
+		B2A51BA3042D68D28921357293CAC06C /* BEAnimojiAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAnimojiAlgorithmTask.m; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B86986E60AC9AFB1EFEB023518D1FD91 /* Pods-EffectDivision_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EffectDivision_Example-Info.plist"; sourceTree = "<group>"; };
+		B8C877AD8057657D0F6052B070C532E2 /* BEFaceClusterAlgorithmTask.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = BEFaceClusterAlgorithmTask.mm; sourceTree = "<group>"; };
+		BB2D97F96D08375722B04FA33D01DF16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC7937010D76FCA2F59DD6674036D3FB /* Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Config.h; path = EffectDivision/Classes/Config.h; sourceTree = "<group>"; };
+		BE3A1ABF1FA2AF51887D01B41BD69E1A /* BEC1AlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEC1AlgorithmTask.h; sourceTree = "<group>"; };
+		BEF4C7C6552D7CA5413BACBFBFA22D7D /* BESkySegAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BESkySegAlgorithmTask.m; sourceTree = "<group>"; };
+		BFA1304C2D31E6677C5F711653BC4552 /* BEChromaKeyingAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEChromaKeyingAlgorithmTask.m; sourceTree = "<group>"; };
+		C1C6B338EAE73E063454340D2E1B0299 /* BEC1AlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEC1AlgorithmTask.m; sourceTree = "<group>"; };
+		C55B4382A8A25858C1EB306187789738 /* EffectDivision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EffectDivision-umbrella.h"; sourceTree = "<group>"; };
+		C5EDD188617BBA8D525CE1ACAD2B9DBA /* BEHeadSegmentAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEHeadSegmentAlgorithmTask.h; sourceTree = "<group>"; };
+		C69EAFF73D688B690FAFBFA21AF81277 /* BEHairParserAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEHairParserAlgorithmTask.m; sourceTree = "<group>"; };
+		C6A8917B3887121386398FC4A543785A /* BEAlgorithmKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEAlgorithmKey.m; sourceTree = "<group>"; };
+		C8EE4C4A8C3FCA561F34786180FC0051 /* BELightClsAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BELightClsAlgorithmTask.h; sourceTree = "<group>"; };
+		CB3210F8A0D94BAFB2F68D1B7ABD018D /* EffectDivision */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EffectDivision; path = EffectDivision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC4EDF8D06244FB85712F90E09A9A64 /* BEHandAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEHandAlgorithmTask.h; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC8B490C0E37B90705EA8632C0D9A5FB /* BEHttpRequestProvider.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = BEHttpRequestProvider.mm; sourceTree = "<group>"; };
+		CCC3BE3E7A8540BD7E7CB5F6C3BB4DB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D08E6B82BBC121E86E8A2BBAAE562DF3 /* BEC2AlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEC2AlgorithmTask.h; sourceTree = "<group>"; };
+		D216CF2064207B60A7543473705160AE /* BECommonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BECommonUtils.h; sourceTree = "<group>"; };
+		D23D8DE197A66E4354BFFF2D6612E674 /* EffectDivision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EffectDivision-Info.plist"; sourceTree = "<group>"; };
+		D2A64DF9FA3844BB8C1563AFD8F92C9D /* BETimeRecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BETimeRecoder.m; sourceTree = "<group>"; };
+		D3911967C7B5358271F9A20BFD3AAD88 /* EffectDivision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EffectDivision.debug.xcconfig; sourceTree = "<group>"; };
+		D547F611907F6957445AAEE5BD0918B4 /* BEStudentIdOcrTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEStudentIdOcrTask.m; sourceTree = "<group>"; };
+		D5E8903B219F66069A1CB382742706C1 /* BELicenseHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = BELicenseHelper.mm; sourceTree = "<group>"; };
+		D5F165DB2D26B0E84CEDC025477764A9 /* BEHumanDistanceAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEHumanDistanceAlgorithmTask.h; sourceTree = "<group>"; };
+		D73F32FB9F3FBF46D02EDF040CBDBDF6 /* BESkinSegmentationAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BESkinSegmentationAlgorithmTask.m; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DDED9F1CACC3D57974D37CDF2A27C5D4 /* BEVideoSRTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEVideoSRTask.m; sourceTree = "<group>"; };
+		DE9511DD1A7B1D14D09C2F64F1411579 /* Pods-EffectDivision_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EffectDivision_Example-dummy.m"; sourceTree = "<group>"; };
+		DF36DCE56C90C4E3087EA2083562B313 /* BEEffectResourceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEEffectResourceHelper.m; sourceTree = "<group>"; };
+		E1B815AA159468AB860A2995599E0783 /* Pods-EffectDivision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EffectDivision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E22DE33DD1AC925DA285C0836A3D2476 /* BEPetFaceAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEPetFaceAlgorithmTask.h; sourceTree = "<group>"; };
+		E2C9937DBD04F6C991AE37DCF4AEC354 /* BEAlgorithmTaskFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAlgorithmTaskFactory.h; sourceTree = "<group>"; };
+		E310014B1065E0D49D4498087AE076BB /* BEAlgorithmKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAlgorithmKey.h; sourceTree = "<group>"; };
+		E5C4604DCA14B31FE98AB4B25A4CD11E /* BEAnimojiAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAnimojiAlgorithmTask.h; sourceTree = "<group>"; };
+		E60A9773AC8265B11C0C202281ADDA51 /* BELensResourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BELensResourceHelper.h; sourceTree = "<group>"; };
+		E61293001C97E2A91F791AC9D3AFBE64 /* BEActionRecognitionAlgorithmTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEActionRecognitionAlgorithmTask.h; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E71068E60CB69325CC60E4F013BAD181 /* BEGLTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEGLTexture.h; sourceTree = "<group>"; };
+		E9ACACC45B67110EDE1A74C4BFC684A2 /* EffectDivision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EffectDivision.modulemap; sourceTree = "<group>"; };
+		EAC0F542B85DBC171C8F10D4722771CF /* BEImageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEImageUtils.m; sourceTree = "<group>"; };
+		EB8F56B1D382EAB093EDB0658DE19804 /* EffectDivision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EffectDivision-dummy.m"; sourceTree = "<group>"; };
+		ECD56A69663A646A03DA22AA558D1538 /* BEGLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEGLUtils.m; path = EffectDivision/Classes/BEGLUtils.m; sourceTree = "<group>"; };
+		EF9FB915B42E4EC93783EC59A5959443 /* BEHumanDistanceAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEHumanDistanceAlgorithmTask.m; sourceTree = "<group>"; };
+		F63E54E644A3B890775FA4CD141EA6F6 /* Pods-EffectDivision_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EffectDivision_Tests-dummy.m"; sourceTree = "<group>"; };
+		F66D0D7651D6B74F54F4EA071F88CE2D /* BEC2AlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEC2AlgorithmTask.m; sourceTree = "<group>"; };
+		F7D34DD946BC1260F70CFCC65DBC6EAF /* BEGazeEstimationTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEGazeEstimationTask.h; sourceTree = "<group>"; };
+		F8D830E549DD0DE804D92E381FB7A382 /* BEFaceVerifyAlgorithmTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEFaceVerifyAlgorithmTask.m; sourceTree = "<group>"; };
+		FD88A7C8743C09C0D08DBF546AF69BAC /* Pods-EffectDivision_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EffectDivision_Example"; path = Pods_EffectDivision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FF0FC3CE71E0162BB8D5F9070836CCCC /* Pods-EffectDivision_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EffectDivision_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3F0D30B1DAB5A73030A961BF995FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C999E83C71C86ED75747D2A276B47BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92225A4C630222799095BBAF731FE04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CD5B7BB7F4FABD02CC7B042DF1F81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEBE1E648485A01A5D01E07DB66F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6111A1216A10360AF9A1990960E2EB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D51C2376A9D98677910FB5283769CA9 /* Pods-EffectDivision_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18A6BC37D5F6E4A34F9573E7F51E2B99 /* Pods-EffectDivision_Tests.modulemap */,
+				32891F814C6FB8B9DAB143B264D1D9A9 /* Pods-EffectDivision_Tests-acknowledgements.markdown */,
+				1E9D0F261376E2606297DAC4239B9AD3 /* Pods-EffectDivision_Tests-acknowledgements.plist */,
+				F63E54E644A3B890775FA4CD141EA6F6 /* Pods-EffectDivision_Tests-dummy.m */,
+				9C1A17F00299BD67E261FEC09198957C /* Pods-EffectDivision_Tests-frameworks.sh */,
+				576751C5BA34F08D1BAA52C16329DA36 /* Pods-EffectDivision_Tests-Info.plist */,
+				850AE44D1D56BC7659120CB893332F2D /* Pods-EffectDivision_Tests-umbrella.h */,
+				E1B815AA159468AB860A2995599E0783 /* Pods-EffectDivision_Tests.debug.xcconfig */,
+				1FE7492F1E93C73C4BB31C2AC20702C3 /* Pods-EffectDivision_Tests.release.xcconfig */,
+			);
+			name = "Pods-EffectDivision_Tests";
+			path = "Target Support Files/Pods-EffectDivision_Tests";
+			sourceTree = "<group>";
+		};
+		1095AD9591728A9F7F597F71D48CD708 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A6CC3C826EF933EC29731D3E5959 /* EffectDivision */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		21119AB49A0C0294DFD99EE7B424A21E /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				E61293001C97E2A91F791AC9D3AFBE64 /* BEActionRecognitionAlgorithmTask.h */,
+				1832BA537A5746E76752A50E9A126DBA /* BEActionRecognitionAlgorithmTask.m */,
+				E5C4604DCA14B31FE98AB4B25A4CD11E /* BEAnimojiAlgorithmTask.h */,
+				B2A51BA3042D68D28921357293CAC06C /* BEAnimojiAlgorithmTask.m */,
+				465DAD3EDE3863C2545DD80459C22F5C /* BEBachSkeletonAlgorithmTask.h */,
+				4189795275F0D783BE434137506DE234 /* BEBachSkeletonAlgorithmTask.m */,
+				BE3A1ABF1FA2AF51887D01B41BD69E1A /* BEC1AlgorithmTask.h */,
+				C1C6B338EAE73E063454340D2E1B0299 /* BEC1AlgorithmTask.m */,
+				D08E6B82BBC121E86E8A2BBAAE562DF3 /* BEC2AlgorithmTask.h */,
+				F66D0D7651D6B74F54F4EA071F88CE2D /* BEC2AlgorithmTask.m */,
+				0FD55DC2ED175C79BBEA9F174BAADB61 /* BECarDetectTask.h */,
+				3353B0057FC2E23878B347CE668AEF95 /* BECarDetectTask.m */,
+				98DE60035BD25DC061A497EFFB9A7628 /* BEChromaKeyingAlgorithmTask.h */,
+				BFA1304C2D31E6677C5F711653BC4552 /* BEChromaKeyingAlgorithmTask.m */,
+				5488DA09F6B17E8EA602AFA5D10D8EDC /* BEConcentrationTask.h */,
+				0B1494E298061DDBA658D217E6AF8584 /* BEConcentrationTask.m */,
+				697E6EF17F698697DE1707BE20DA3F82 /* BEDynamicGestureAlgorithmTask.h */,
+				8C03453022C80B65B91FF65F94A709DC /* BEDynamicGestureAlgorithmTask.m */,
+				9E10EE7400D42F5EE250DA8FE9205CA8 /* BEFaceAlgorithmTask.h */,
+				119BA7FD59DC7598094A04756406E0E3 /* BEFaceAlgorithmTask.m */,
+				28892F59EFCF2FCB47A353D995C6E2E4 /* BEFaceClusterAlgorithmTask.h */,
+				B8C877AD8057657D0F6052B070C532E2 /* BEFaceClusterAlgorithmTask.mm */,
+				9B1122BB8C1D2D6E06369E950F8BF800 /* BEFaceVerifyAlgorithmTask.h */,
+				F8D830E549DD0DE804D92E381FB7A382 /* BEFaceVerifyAlgorithmTask.m */,
+				F7D34DD946BC1260F70CFCC65DBC6EAF /* BEGazeEstimationTask.h */,
+				32D557037DAB15F85FE88CE8ADE9CF63 /* BEGazeEstimationTask.m */,
+				21169CB13855D7F296664D985BBB14B6 /* BEHairParserAlgorithmTask.h */,
+				C69EAFF73D688B690FAFBFA21AF81277 /* BEHairParserAlgorithmTask.m */,
+				CBC4EDF8D06244FB85712F90E09A9A64 /* BEHandAlgorithmTask.h */,
+				AFE2D2F22105567AE971FDF6203FB548 /* BEHandAlgorithmTask.m */,
+				C5EDD188617BBA8D525CE1ACAD2B9DBA /* BEHeadSegmentAlgorithmTask.h */,
+				3E632488E16787D012C5142743CE1E3C /* BEHeadSegmentAlgorithmTask.m */,
+				D5F165DB2D26B0E84CEDC025477764A9 /* BEHumanDistanceAlgorithmTask.h */,
+				EF9FB915B42E4EC93783EC59A5959443 /* BEHumanDistanceAlgorithmTask.m */,
+				C8EE4C4A8C3FCA561F34786180FC0051 /* BELightClsAlgorithmTask.h */,
+				77A0D9AE240863C0DB7BF0847DF674A1 /* BELightClsAlgorithmTask.m */,
+				E22DE33DD1AC925DA285C0836A3D2476 /* BEPetFaceAlgorithmTask.h */,
+				5398E2B0477C973C874B1E0BFF9882B7 /* BEPetFaceAlgorithmTask.m */,
+				8E0C38C590DCF53B611FF2ED4441FD65 /* BEPortraitMattingAlgorithmTask.h */,
+				8C8501927051065EF9833B32977D9B8B /* BEPortraitMattingAlgorithmTask.m */,
+				A689B1E29F9BBFBE950BAFBBABFD6C17 /* BESkeletonAlgorithmTask.h */,
+				26D9E80869C414D15F0FA1119D37A25D /* BESkeletonAlgorithmTask.m */,
+				559502C246EB962C47915C129446B799 /* BESkinSegmentationAlgorithmTask.h */,
+				D73F32FB9F3FBF46D02EDF040CBDBDF6 /* BESkinSegmentationAlgorithmTask.m */,
+				7E31FACC9CF6F25BC41A13A233A7C86E /* BESkySegAlgorithmTask.h */,
+				BEF4C7C6552D7CA5413BACBFBFA22D7D /* BESkySegAlgorithmTask.m */,
+				AA3ADD3EE3E67CD6996FAB911D4467B3 /* BEStudentIdOcrTask.h */,
+				D547F611907F6957445AAEE5BD0918B4 /* BEStudentIdOcrTask.m */,
+				2055DC42187D9A7C722495E2589D1E08 /* BEVideoClsAlgorithmTask.h */,
+				18965FEF12F202D500ACE440E1B366AC /* BEVideoClsAlgorithmTask.m */,
+			);
+			name = Task;
+			path = Task;
+			sourceTree = "<group>";
+		};
+		2E34A6CC3C826EF933EC29731D3E5959 /* EffectDivision */ = {
+			isa = PBXGroup;
+			children = (
+				ACD31518635FC44F88B65D6D6D38636D /* BEGLUtils.h */,
+				ECD56A69663A646A03DA22AA558D1538 /* BEGLUtils.m */,
+				BC7937010D76FCA2F59DD6674036D3FB /* Config.h */,
+				4E68744467E6729FACEA8EBB483CDFDC /* Core.h */,
+				3F8A0BFD1771108C169E61B99B173A34 /* macro.h */,
+				E3342F1F8CFB3103784633D4865C95FE /* Algorithm */,
+				3D3468C2440D8EB990E377923E43A705 /* Avatar */,
+				64EAB3C64380382F316086909887A640 /* Effect */,
+				9C13E0571B73FBF1F3B461FB59012FBC /* Lens */,
+				DB6E2E2FE8834E6FAF8D41D5D7893CF2 /* License */,
+				BF389417BF5A7C377E35335576D13852 /* Pod */,
+				E6B0EE64C3AE026D73BC0805E300BBA4 /* Support Files */,
+				6CCCD2D7300060A7D2CA8FA978ABD9A8 /* Utils */,
+			);
+			name = EffectDivision;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3D3468C2440D8EB990E377923E43A705 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				554A136B1008F7761039493747E62A79 /* BEAvatarManager.h */,
+				9869E05C227363EE23BB5E9B873857BD /* BEAvatarManager.m */,
+			);
+			name = Avatar;
+			path = EffectDivision/Classes/Avatar;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4CE4EEDA96F2D2ADDE56172F5DB422C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D1B7E50DC497822EE47EF4F1D85719 /* Pods-EffectDivision_Example */,
+				0D51C2376A9D98677910FB5283769CA9 /* Pods-EffectDivision_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5312EA5CB3E76951F3F8F0FA08B56335 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E310014B1065E0D49D4498087AE076BB /* BEAlgorithmKey.h */,
+				C6A8917B3887121386398FC4A543785A /* BEAlgorithmKey.m */,
+				A99E4DF4A3EE38627696203B87C3DB7A /* BEAlgorithmTask.h */,
+				34359BB5E8090F0A1EAFA9853F8DBEF1 /* BEAlgorithmTask.m */,
+				E2C9937DBD04F6C991AE37DCF4AEC354 /* BEAlgorithmTaskFactory.h */,
+				4B1FB7E5A2B0C1AE3550471F64BB81D1 /* BEAlgorithmTaskFactory.m */,
+			);
+			name = Base;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		64EAB3C64380382F316086909887A640 /* Effect */ = {
+			isa = PBXGroup;
+			children = (
+				A2E62C7369D4637B1F5D217C368E4683 /* BEEffectManager.h */,
+				596BE7976E6862A911D23F7E440AAA5D /* BEEffectManager.mm */,
+				68C782F0C74D2C2B6731F780FD198D4E /* BEEffectResourceHelper.h */,
+				DF36DCE56C90C4E3087EA2083562B313 /* BEEffectResourceHelper.m */,
+			);
+			name = Effect;
+			path = EffectDivision/Classes/Effect;
+			sourceTree = "<group>";
+		};
+		6CCCD2D7300060A7D2CA8FA978ABD9A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D216CF2064207B60A7543473705160AE /* BECommonUtils.h */,
+				3E86FEE00C82CBB26CCBB14405750202 /* BECommonUtils.m */,
+				E71068E60CB69325CC60E4F013BAD181 /* BEGLTexture.h */,
+				2E8E4BBC749BC0981556826D095ED45C /* BEGLTexture.m */,
+				20015C8D11DC0D8D68CBFBEB25899E75 /* BEImageUtils.h */,
+				EAC0F542B85DBC171C8F10D4722771CF /* BEImageUtils.m */,
+				3B8E59EFA04EA07F07E9CFE89C3BF07C /* BEOpenGLRenderHelper.h */,
+				9D3F6B662AB283FA07095DE96CACD9B9 /* BEOpenGLRenderHelper.m */,
+				44D6003A5BE8D88FDDF687780B0C0CDE /* BETimeRecoder.h */,
+				D2A64DF9FA3844BB8C1563AFD8F92C9D /* BETimeRecoder.m */,
+			);
+			name = Utils;
+			path = EffectDivision/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		81D1B7E50DC497822EE47EF4F1D85719 /* Pods-EffectDivision_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3398C63293419DE0DD2D723C28427AC9 /* Pods-EffectDivision_Example.modulemap */,
+				4AF8C5221B2D7AD6796D41C6B89D63CC /* Pods-EffectDivision_Example-acknowledgements.markdown */,
+				FF0FC3CE71E0162BB8D5F9070836CCCC /* Pods-EffectDivision_Example-acknowledgements.plist */,
+				DE9511DD1A7B1D14D09C2F64F1411579 /* Pods-EffectDivision_Example-dummy.m */,
+				9ADBB62895A1DD2CBDF9EBCE25D0DAC2 /* Pods-EffectDivision_Example-frameworks.sh */,
+				B86986E60AC9AFB1EFEB023518D1FD91 /* Pods-EffectDivision_Example-Info.plist */,
+				4EA2E811602B4063A70FC34D2ED93291 /* Pods-EffectDivision_Example-umbrella.h */,
+				40A06A454FF16BD26AF17D6F9D084287 /* Pods-EffectDivision_Example.debug.xcconfig */,
+				0EDB1333220BCEA46F5A9B27A221081D /* Pods-EffectDivision_Example.release.xcconfig */,
+			);
+			name = "Pods-EffectDivision_Example";
+			path = "Target Support Files/Pods-EffectDivision_Example";
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9C13E0571B73FBF1F3B461FB59012FBC /* Lens */ = {
+			isa = PBXGroup;
+			children = (
+				1D86C0C207B81665A185A4F1CF45B530 /* BEAdaptiveSharpenTask.h */,
+				20DC4984B96AF7FFE171FF01E2876F10 /* BEAdaptiveSharpenTask.m */,
+				15F35F0C00792AC37FDFCD13C98A38AE /* BEImageOpeartion.h */,
+				90E88421EC2EADD96A4D7E93FAD1EAC9 /* BEImageOpeartion.m */,
+				19DADB3A7ECE7A33D67EDECD7845E054 /* BEImageQualityProcessManager.h */,
+				16D95EA0B3250D86E004E23A8F17A9B0 /* BEImageQualityProcessManager.m */,
+				E60A9773AC8265B11C0C202281ADDA51 /* BELensResourceHelper.h */,
+				459E58306F9164026DFE8E7BF537B84C /* BELensResourceHelper.m */,
+				18BD9E45DAA9C0C93144EA9A4B2938B9 /* BEPhotoNightSceneTask.h */,
+				A7C86FA88D63D050D9A9552156BFE4DB /* BEPhotoNightSceneTask.m */,
+				7088821068BCF1F7891C8E7DC4338974 /* BEVideoSRTask.h */,
+				DDED9F1CACC3D57974D37CDF2A27C5D4 /* BEVideoSRTask.m */,
+			);
+			name = Lens;
+			path = EffectDivision/Classes/Lens;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BF389417BF5A7C377E35335576D13852 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD3CA5BB39FB63A0AE01C4B7267364AF /* EffectDivision.podspec */,
+				BB2D97F96D08375722B04FA33D01DF16 /* LICENSE */,
+				CCC3BE3E7A8540BD7E7CB5F6C3BB4DB0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C29224F627FDDDDED4948DC9ADCAC945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3210F8A0D94BAFB2F68D1B7ABD018D /* EffectDivision */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				FD88A7C8743C09C0D08DBF546AF69BAC /* Pods-EffectDivision_Example */,
+				79AA029C4AB0771D165FD516BE3D40A8 /* Pods-EffectDivision_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1095AD9591728A9F7F597F71D48CD708 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				C29224F627FDDDDED4948DC9ADCAC945 /* Products */,
+				4CE4EEDA96F2D2ADDE56172F5DB422C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6E2E2FE8834E6FAF8D41D5D7893CF2 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				0A993CC4B2B119F5D6ADEEB6453BC7DB /* BEHttpRequestProvider.h */,
+				CC8B490C0E37B90705EA8632C0D9A5FB /* BEHttpRequestProvider.mm */,
+				239FA95D7BDF60AB9D3FA874D3C14DC0 /* BELicenseHelper.h */,
+				D5E8903B219F66069A1CB382742706C1 /* BELicenseHelper.mm */,
+			);
+			name = License;
+			path = EffectDivision/Classes/License;
+			sourceTree = "<group>";
+		};
+		E3342F1F8CFB3103784633D4865C95FE /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				7F7CA2C20CD42AF7A3D06FEF74CA7AD3 /* BEAlgorithmResourceHelper.h */,
+				8947B841828DDC3068005E42965F819F /* BEAlgorithmResourceHelper.m */,
+				5312EA5CB3E76951F3F8F0FA08B56335 /* Base */,
+				21119AB49A0C0294DFD99EE7B424A21E /* Task */,
+			);
+			name = Algorithm;
+			path = EffectDivision/Classes/Algorithm;
+			sourceTree = "<group>";
+		};
+		E6B0EE64C3AE026D73BC0805E300BBA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACACC45B67110EDE1A74C4BFC684A2 /* EffectDivision.modulemap */,
+				EB8F56B1D382EAB093EDB0658DE19804 /* EffectDivision-dummy.m */,
+				D23D8DE197A66E4354BFFF2D6612E674 /* EffectDivision-Info.plist */,
+				9C9BB99B20EFDE1E1A7806B257ECD7B1 /* EffectDivision-prefix.pch */,
+				C55B4382A8A25858C1EB306187789738 /* EffectDivision-umbrella.h */,
+				D3911967C7B5358271F9A20BFD3AAD88 /* EffectDivision.debug.xcconfig */,
+				87E12624EA7BA249CE0BCF7B8D425AFC /* EffectDivision.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EffectDivision";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		423480693093F7DF2AC40E85417A374B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE140B0D373E2D897700A5CBFB26E2EB /* Pods-EffectDivision_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4F10C368B16A8C413C6524D88543D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68680BEF354FA98DF6E42D27C3937D8C /* Pods-EffectDivision_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5FAC9558296137EB8474AE8428CA86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C5CDFD1A7A07891C8DE868828F9675 /* BEActionRecognitionAlgorithmTask.h in Headers */,
+				94C070E66EF36DACFD2BF38F75B1166B /* BEAdaptiveSharpenTask.h in Headers */,
+				B8A66BF41AF1C180B7ECEA7B9C8AC590 /* BEAlgorithmKey.h in Headers */,
+				A9FC97852A5D7BE441119F6B2C349A73 /* BEAlgorithmResourceHelper.h in Headers */,
+				AD7F49F9C709CE984B282F7E9498655D /* BEAlgorithmTask.h in Headers */,
+				7B1E5BBAE01B8F0D1FBD77A5274CA91D /* BEAlgorithmTaskFactory.h in Headers */,
+				9B8C79175AA2E558FEBEEDAB4D47A03C /* BEAnimojiAlgorithmTask.h in Headers */,
+				E59475148135B62A7E6828B43B6787BB /* BEAvatarManager.h in Headers */,
+				2092E2468F872E80373F33A5CC62B283 /* BEBachSkeletonAlgorithmTask.h in Headers */,
+				9B6F926DF9D82999EDB94B93EA8F1F46 /* BEC1AlgorithmTask.h in Headers */,
+				C0AA225A235EEFD9CBDD43D7AF64C072 /* BEC2AlgorithmTask.h in Headers */,
+				68A4935FC823FDA8124FC10DA19325C5 /* BECarDetectTask.h in Headers */,
+				9598E560520B7749A6A98BA822FDAA4E /* BEChromaKeyingAlgorithmTask.h in Headers */,
+				FD1D9BC012A899E9934F1617A54FFC73 /* BECommonUtils.h in Headers */,
+				4B3C8E094ECAC7B0C959FE4C163C273D /* BEConcentrationTask.h in Headers */,
+				E8668B53BFE153D073C6ADD2130A5E22 /* BEDynamicGestureAlgorithmTask.h in Headers */,
+				D9B45CDC2AEA2BB2057C859CDF640803 /* BEEffectManager.h in Headers */,
+				37B9AFED170F2A5A4FDA68356269736F /* BEEffectResourceHelper.h in Headers */,
+				B8389285B789B2D01883109C9331680C /* BEFaceAlgorithmTask.h in Headers */,
+				4A51879511A4DF506BCF7E15E6874CBA /* BEFaceClusterAlgorithmTask.h in Headers */,
+				DA45D7B94A3E4D875CDE731A024DB6CF /* BEFaceVerifyAlgorithmTask.h in Headers */,
+				E0EC511216A99339A753625789D17C0C /* BEGazeEstimationTask.h in Headers */,
+				99ECFF5723F678683EB05D44F27D116B /* BEGLTexture.h in Headers */,
+				1F1691B266CF66C9E957DF1C9EB1BEB1 /* BEGLUtils.h in Headers */,
+				2971E6595C8ABF44BBF400F9D4274542 /* BEHairParserAlgorithmTask.h in Headers */,
+				F164016A18A3D2D958ED347F0D94E921 /* BEHandAlgorithmTask.h in Headers */,
+				24A665B142D284F9DD5F60F2B87E9A13 /* BEHeadSegmentAlgorithmTask.h in Headers */,
+				37FE55F4147B1468D85181A17B4A3E43 /* BEHttpRequestProvider.h in Headers */,
+				D4510F11B0D02D87B2AB4F5FA0FADDBD /* BEHumanDistanceAlgorithmTask.h in Headers */,
+				E15347089E32142E6F34FC5F60022960 /* BEImageOpeartion.h in Headers */,
+				794744849D90131D3B2697A7A031696B /* BEImageQualityProcessManager.h in Headers */,
+				990F0164CC59388F270A0337EEF73009 /* BEImageUtils.h in Headers */,
+				CBE306C9FA246EC796824B7E33520D61 /* BELensResourceHelper.h in Headers */,
+				6130E1C025E8679BE22E15CD8279EA57 /* BELicenseHelper.h in Headers */,
+				BA5590F0DAF4562650A5A958C75A1F02 /* BELightClsAlgorithmTask.h in Headers */,
+				6417AB54E0160E5AD4D88F05CB869E3E /* BEOpenGLRenderHelper.h in Headers */,
+				8646066C1CA1D44E8BBD15DCDA78E18B /* BEPetFaceAlgorithmTask.h in Headers */,
+				7E064019D8DEF35846E25077BF91C52D /* BEPhotoNightSceneTask.h in Headers */,
+				E4BF413534D3F5F430B8C131EB74A5AE /* BEPortraitMattingAlgorithmTask.h in Headers */,
+				C673B48793461D6533D85E1747034ACE /* BESkeletonAlgorithmTask.h in Headers */,
+				4B35A0F61A4A933477BBB42B096C6FEE /* BESkinSegmentationAlgorithmTask.h in Headers */,
+				E1FE2E78578DC59564A776FFA5B410EA /* BESkySegAlgorithmTask.h in Headers */,
+				0B2C313579646EC2D06C7A663DECF89F /* BEStudentIdOcrTask.h in Headers */,
+				B7E142B1FD7FB99765BBACCB6158F046 /* BETimeRecoder.h in Headers */,
+				69ABBA77B69CEF798003EB518CA6F7CF /* BEVideoClsAlgorithmTask.h in Headers */,
+				D3D67DEEDA902F8B57AC1E91ABCDDAC1 /* BEVideoSRTask.h in Headers */,
+				0BC4BF7F97DB403703A16CF395AF3C63 /* Config.h in Headers */,
+				2F18F3A415C38CF764C4CD235EF0EDCE /* Core.h in Headers */,
+				290823436E8C2FE29B4E3BF4AFE891BB /* EffectDivision-umbrella.h in Headers */,
+				5830C58C161B1F2643B0528F62BB06F0 /* macro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		914F596B87C67E6286E2E801D3ECB676 /* Pods-EffectDivision_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD64AC54981649F361FCFD153E5C01 /* Build configuration list for PBXNativeTarget "Pods-EffectDivision_Example" */;
+			buildPhases = (
+				9F4F10C368B16A8C413C6524D88543D6 /* Headers */,
+				0BA5EBDDED0BB47248C5E914F4F1DADC /* Sources */,
+				97EEBE1E648485A01A5D01E07DB66F65 /* Frameworks */,
+				574403AD46CFEB5DFBFE36367940A890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C0BD053861B0C2F9CB80C1B57F76EB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-EffectDivision_Example";
+			productName = Pods_EffectDivision_Example;
+			productReference = FD88A7C8743C09C0D08DBF546AF69BAC /* Pods-EffectDivision_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD625747757851EEC78B69DBC5204807 /* EffectDivision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C33B61DD147A40052BA2781C9E15C32 /* Build configuration list for PBXNativeTarget "EffectDivision" */;
+			buildPhases = (
+				CF5FAC9558296137EB8474AE8428CA86 /* Headers */,
+				CEA9D53FEC669383886DE278B65009BB /* Sources */,
+				92225A4C630222799095BBAF731FE04A /* Frameworks */,
+				20170C94E589B5046EA2E48812147B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EffectDivision;
+			productName = EffectDivision;
+			productReference = CB3210F8A0D94BAFB2F68D1B7ABD018D /* EffectDivision */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8517AF8B7661AA71CC3DA14F2C03FEB /* Pods-EffectDivision_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A640E1ECBF219F63804B567F718D640 /* Build configuration list for PBXNativeTarget "Pods-EffectDivision_Tests" */;
+			buildPhases = (
+				423480693093F7DF2AC40E85417A374B /* Headers */,
+				5273C053A373A2644082CC58243E7682 /* Sources */,
+				5F3F0D30B1DAB5A73030A961BF995FAE /* Frameworks */,
+				0BD037BB581946B77932E48E3A3ED5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886083C3CC93062380105E581E9B3603 /* PBXTargetDependency */,
+				D80864A35F9B9F84AF088C62B4AB52DF /* PBXTargetDependency */,
+			);
+			name = "Pods-EffectDivision_Tests";
+			productName = Pods_EffectDivision_Tests;
+			productReference = 79AA029C4AB0771D165FD516BE3D40A8 /* Pods-EffectDivision_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C29224F627FDDDDED4948DC9ADCAC945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD625747757851EEC78B69DBC5204807 /* EffectDivision */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				914F596B87C67E6286E2E801D3ECB676 /* Pods-EffectDivision_Example */,
+				B8517AF8B7661AA71CC3DA14F2C03FEB /* Pods-EffectDivision_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BD037BB581946B77932E48E3A3ED5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20170C94E589B5046EA2E48812147B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574403AD46CFEB5DFBFE36367940A890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA5EBDDED0BB47248C5E914F4F1DADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989A954C6109853817E32D9515A071BE /* Pods-EffectDivision_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5273C053A373A2644082CC58243E7682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34E91790550236A7246ED609007023C /* Pods-EffectDivision_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA9D53FEC669383886DE278B65009BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092360553535479341C25D4A33362A63 /* BEActionRecognitionAlgorithmTask.m in Sources */,
+				5396957A9113913CF6C039DCA52D1168 /* BEAdaptiveSharpenTask.m in Sources */,
+				37D51C15B8582541649B50B95566DF36 /* BEAlgorithmKey.m in Sources */,
+				EAC6FBC966B997F014E12A7F7353E5FA /* BEAlgorithmResourceHelper.m in Sources */,
+				F11C3B419861227A9EDA55865DB745C0 /* BEAlgorithmTask.m in Sources */,
+				9E3CE4AB97DA5364625C9D7F816A1270 /* BEAlgorithmTaskFactory.m in Sources */,
+				93EA244E18A282BDBA66A7AC556E1B0A /* BEAnimojiAlgorithmTask.m in Sources */,
+				D151CF03B89B77A0A37785FC233D1FCC /* BEAvatarManager.m in Sources */,
+				B2AA45936864A971EABD3332B89DA269 /* BEBachSkeletonAlgorithmTask.m in Sources */,
+				CF13181069BDBFAB866307681B5238A6 /* BEC1AlgorithmTask.m in Sources */,
+				EC94984D5E23CA3AFC01B12C1604D9A5 /* BEC2AlgorithmTask.m in Sources */,
+				C5659C694F3A3300FCEA79CF61043316 /* BECarDetectTask.m in Sources */,
+				F1883CF56E045D08825C0EBFEF0055DC /* BEChromaKeyingAlgorithmTask.m in Sources */,
+				493771CC851688BF0048566FB8960848 /* BECommonUtils.m in Sources */,
+				7228793D5D9FF5570DD18DB0C2740A49 /* BEConcentrationTask.m in Sources */,
+				4ADDA4250674BC56907BFBB6E38D21BC /* BEDynamicGestureAlgorithmTask.m in Sources */,
+				96845DF27DD75A69534DF359A9D75FA9 /* BEEffectManager.mm in Sources */,
+				A9B20D1B7FC890B46573620B537D1FA6 /* BEEffectResourceHelper.m in Sources */,
+				1AE65038FB11473FB93D3054854CB64C /* BEFaceAlgorithmTask.m in Sources */,
+				25F19412D0AE7824A59D6FC8E9023255 /* BEFaceClusterAlgorithmTask.mm in Sources */,
+				CB5CBE36BCF9245A8785ADE9FE835A44 /* BEFaceVerifyAlgorithmTask.m in Sources */,
+				1C46850737AD6A51CA73D6EBD7481411 /* BEGazeEstimationTask.m in Sources */,
+				ACA4B6CF74E2AEF5D8ADABFFD9910084 /* BEGLTexture.m in Sources */,
+				0B8FDD77E271C04A87C0813A514EB3F5 /* BEGLUtils.m in Sources */,
+				FD5188B87E4A113C7924148E77967432 /* BEHairParserAlgorithmTask.m in Sources */,
+				B52C0A613BF6C7F47242119A87D80105 /* BEHandAlgorithmTask.m in Sources */,
+				E1E66F411D8199922F325A9F7A5DCD0D /* BEHeadSegmentAlgorithmTask.m in Sources */,
+				0DFEA2F596F8E2C60EA29BA79457539B /* BEHttpRequestProvider.mm in Sources */,
+				7CB394C57B81422093CE6E6BBBA3CCAB /* BEHumanDistanceAlgorithmTask.m in Sources */,
+				61C27E295F2426C2ACD89F0C4701C367 /* BEImageOpeartion.m in Sources */,
+				788D4802F32333CA8D3E0E5C171A4E4C /* BEImageQualityProcessManager.m in Sources */,
+				6DE027EAC1E4B2DC711EB763AE4D8DA2 /* BEImageUtils.m in Sources */,
+				0816AC7A9477692AA102F254111B0E58 /* BELensResourceHelper.m in Sources */,
+				705673A5BF7CC898E9A4BDCD50A8FE8F /* BELicenseHelper.mm in Sources */,
+				FE993AB68ED60E0C82A12D4553FBA6DB /* BELightClsAlgorithmTask.m in Sources */,
+				5F46673E8782CD293DE9947AB4991142 /* BEOpenGLRenderHelper.m in Sources */,
+				E0D11537FB249D830EFD302AFD1D05E4 /* BEPetFaceAlgorithmTask.m in Sources */,
+				6D59955E7A29CFB06EB3CF6B1AF00F29 /* BEPhotoNightSceneTask.m in Sources */,
+				29501D042F33E4CD7D4A7F34EC5E1407 /* BEPortraitMattingAlgorithmTask.m in Sources */,
+				7C09621142F94931BD7DF80979B7702B /* BESkeletonAlgorithmTask.m in Sources */,
+				2343AD7B12D7641681B1801FE5E1BE3C /* BESkinSegmentationAlgorithmTask.m in Sources */,
+				1EAACC38884C6EFC5B7BF029A225E22A /* BESkySegAlgorithmTask.m in Sources */,
+				C44FEC6D05BFEE833E241A77E783F3EE /* BEStudentIdOcrTask.m in Sources */,
+				A45ECACEB230DC2D83C06B07EE1E4482 /* BETimeRecoder.m in Sources */,
+				22B9A4DC3CD41C7A885D88A519D3BB1D /* BEVideoClsAlgorithmTask.m in Sources */,
+				AA2FB432D342374FF1B6AE3DFEB7FE03 /* BEVideoSRTask.m in Sources */,
+				0EB333DBB690A43B3EE86746D388DA2E /* EffectDivision-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C0BD053861B0C2F9CB80C1B57F76EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EffectDivision;
+			target = AD625747757851EEC78B69DBC5204807 /* EffectDivision */;
+			targetProxy = F1EB7B998164FDC91F57945AA87D7D67 /* PBXContainerItemProxy */;
+		};
+		886083C3CC93062380105E581E9B3603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 576937D43F3CCF2B3733AD0B94F00825 /* PBXContainerItemProxy */;
+		};
+		D80864A35F9B9F84AF088C62B4AB52DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EffectDivision_Example";
+			target = 914F596B87C67E6286E2E801D3ECB676 /* Pods-EffectDivision_Example */;
+			targetProxy = 87E4FA39DA560DA0C136F269AC6A779A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50DCFEC79CCFBBC8C803869BCE443C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E12624EA7BA249CE0BCF7B8D425AFC /* EffectDivision.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EffectDivision/EffectDivision-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EffectDivision/EffectDivision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EffectDivision/EffectDivision.modulemap";
+				PRODUCT_MODULE_NAME = EffectDivision;
+				PRODUCT_NAME = EffectDivision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BD4F2F44A704BE2F62EACC00C578356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A06A454FF16BD26AF17D6F9D084287 /* Pods-EffectDivision_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EffectDivision_Example/Pods-EffectDivision_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EffectDivision_Example/Pods-EffectDivision_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		834C2A2C88EB7E8B64E524A75B6CC79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDB1333220BCEA46F5A9B27A221081D /* Pods-EffectDivision_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EffectDivision_Example/Pods-EffectDivision_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EffectDivision_Example/Pods-EffectDivision_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EBEBEFD8D62449E1C739426DBEAA2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE7492F1E93C73C4BB31C2AC20702C3 /* Pods-EffectDivision_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EffectDivision_Tests/Pods-EffectDivision_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EffectDivision_Tests/Pods-EffectDivision_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D65837E03A1934696812DD7CEB276F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3911967C7B5358271F9A20BFD3AAD88 /* EffectDivision.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EffectDivision/EffectDivision-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EffectDivision/EffectDivision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EffectDivision/EffectDivision.modulemap";
+				PRODUCT_MODULE_NAME = EffectDivision;
+				PRODUCT_NAME = EffectDivision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6B4126D495C0B4E252B27E694012B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B815AA159468AB860A2995599E0783 /* Pods-EffectDivision_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EffectDivision_Tests/Pods-EffectDivision_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EffectDivision_Tests/Pods-EffectDivision_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A640E1ECBF219F63804B567F718D640 /* Build configuration list for PBXNativeTarget "Pods-EffectDivision_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B4126D495C0B4E252B27E694012B42 /* Debug */,
+				8EBEBEFD8D62449E1C739426DBEAA2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C33B61DD147A40052BA2781C9E15C32 /* Build configuration list for PBXNativeTarget "EffectDivision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65837E03A1934696812DD7CEB276F39 /* Debug */,
+				50DCFEC79CCFBBC8C803869BCE443C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BD64AC54981649F361FCFD153E5C01 /* Build configuration list for PBXNativeTarget "Pods-EffectDivision_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD4F2F44A704BE2F62EACC00C578356 /* Debug */,
+				834C2A2C88EB7E8B64E524A75B6CC79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
