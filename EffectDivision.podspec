@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'BytedEffectSDK', :podspec => '../EffectDivision/BytedEffectSDK.podspec'
+  s.dependency 'BytedEffectSDK', :podspec => '/Users/himi/EffectDivision/BytedEffectSDK.podspec'
 end
