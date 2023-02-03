@@ -1084,7 +1084,7 @@
 			};
 			name = Release;
 		};
-		50DCFEC79CCFBBC8C803869BCE443C6C /* Release */ = {
+		23C2775A84779C5AA65BFF270DBBAE52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87E12624EA7BA249CE0BCF7B8D425AFC /* EffectDivision.release.xcconfig */;
 			buildSettings = {
@@ -1100,7 +1100,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EffectDivision/EffectDivision-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EffectDivision/EffectDivision-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EffectDivision/EffectDivision.modulemap";
 				PRODUCT_MODULE_NAME = EffectDivision;
@@ -1375,7 +1375,7 @@
 			};
 			name = Debug;
 		};
-		D65837E03A1934696812DD7CEB276F39 /* Debug */ = {
+		D38B06084058C3A6B567BCEB0FA965EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3911967C7B5358271F9A20BFD3AAD88 /* EffectDivision.debug.xcconfig */;
 			buildSettings = {
@@ -1391,7 +1391,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EffectDivision/EffectDivision-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EffectDivision/EffectDivision-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EffectDivision/EffectDivision.modulemap";
 				PRODUCT_MODULE_NAME = EffectDivision;
@@ -1472,8 +1472,8 @@
 		4C33B61DD147A40052BA2781C9E15C32 /* Build configuration list for PBXNativeTarget "EffectDivision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D65837E03A1934696812DD7CEB276F39 /* Debug */,
-				50DCFEC79CCFBBC8C803869BCE443C6C /* Release */,
+				D38B06084058C3A6B567BCEB0FA965EA /* Debug */,
+				23C2775A84779C5AA65BFF270DBBAE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
