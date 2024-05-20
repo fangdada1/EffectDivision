@@ -46,6 +46,7 @@ static NSString *BUNDLE = @"bundle";
     if (!_stickerPrefix) {
         _stickerPrefix = [[[NSBundle mainBundle] pathForResource:STICKER_PATH ofType:BUNDLE] stringByAppendingString:@"/stickers/"];
     }
+    NSLog(@"打印当前拼接字符串地址 = %@", [_stickerPrefix stringByAppendingString:stickerName]);
     return [_stickerPrefix stringByAppendingString:stickerName];
 }
 
