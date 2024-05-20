@@ -8,7 +8,7 @@
 #ifndef Config_h
 #define Config_h
 
-#define LICENSE_NAME ((const char *)"fuya_20230505_20240815_com.3pdoxu9v.uip_4.3.2_289.licbag")
+#define LICENSE_NAME ((const char *)"yanyu_test_20240429_20240531_com.funyas.vips_4.5.2_1481.licbag")
 
 #define DEBUG_LOG false
 #define TIME_LOG false
